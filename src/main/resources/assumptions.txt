@@ -1,5 +1,12 @@
 Assumptions
 =========================
+1.= In order to make it understable in a pretty way I assume that the explorer make it step by step writing in the maze,
+    the order of the steps made
+2.= The order in which directions are clockwise motion.
+3.= All rows must have the same number of chars
+
+
+
 
 
 

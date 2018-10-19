@@ -26,3 +26,13 @@ Icon?
 Thumbs.db
 /bin
 
+#Compiled class
+*.class
+
+#Log files
+*.log
+
+#Package files
+*.gz
+*.ear
+*.zip
