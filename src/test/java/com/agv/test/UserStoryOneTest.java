@@ -49,9 +49,11 @@ public class UserStoryOneTest {
         coordenatey = 2;
 
         MazeSolver mazeSolver = new MazeSolverImpl();
-
+        
         try {
             file = new File(fileName);
+            coordenatex--;
+            coordenatey--;
             mazeSolver.userStoryOneTwo(file,coordenatex,coordenatey);
         }catch(Exception e){
             logger.error("Problem to open file: " + fileName, e);
@@ -67,6 +69,8 @@ public class UserStoryOneTest {
 
         try {
             file = new File(fileName);
+            coordenatex--;
+            coordenatey--;
             mazeSolver.userStoryOneTwo(file,coordenatex,coordenatey);
         }catch(Exception e){
             logger.error("Problem to open file: " + fileName, e);
@@ -83,6 +87,8 @@ public class UserStoryOneTest {
 
         try {
             file = new File(fileName);
+            coordenatex--;
+            coordenatey--;
             mazeSolver.userStoryOneTwo(file,coordenatex,coordenatey);
         }catch(Exception e){
             logger.error("Problem to open file: " + fileName, e);
@@ -99,6 +105,8 @@ public class UserStoryOneTest {
 
         try {
             file = new File(fileName);
+            coordenatex--;
+            coordenatey--;
             mazeSolver.userStoryOneTwo(file,coordenatex,coordenatey);
         }catch(Exception e){
             logger.error("Problem to open file: " + fileName, e);
