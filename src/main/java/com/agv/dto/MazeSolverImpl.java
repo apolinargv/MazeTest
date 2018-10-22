@@ -43,13 +43,11 @@ public class MazeSolverImpl implements MazeSolver {
         logger.info("Coordenate provided: (X="+x + ",Y="+y+")");
 
 
-        if(exploration.isValidLocation(x,y)){
+        //if(exploration.isValidLocation(x,y)){
             Coordinate coor = new Coordinate(x,y);
             MazeStructure ms = maze.whatIsAt(coor);
             logger.info("Information founded: "+ ms + " = " + ms.getValue());
-        }else{
-            logger.error("Coordenate is wrong");
-        }
+        
 
     }
 

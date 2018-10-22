@@ -4,7 +4,7 @@ Assumptions
     the order of the steps made
 2.= The order in which directions are clockwise motion.
 3.= All rows must have the same number of chars
-
+4.= The main class is located at com.agv.AppMain and in void main method we must to write the coordenates to execute manually from 1 to X, according to the dimensions of the maze.
 
 
 

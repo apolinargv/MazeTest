@@ -24,10 +24,15 @@ public class AppMain {
 
     public static void main(String[] args) throws Exception {
         File mazeFile = new File("src/main/resources/maze.txt");
-        int coordenateX = 13;
-        int coordenateY = 2;
+        /**
+         * Coordenates from 1 to 15, information took it from the maze provided
+         */
+        int coordenateX = 15;
+        int coordenateY = 1;
 
         MazeSolver mazeSolver = new MazeSolverImpl();
+        coordenateX--;
+        coordenateY--;
         mazeSolver.userStoryOne(mazeFile,coordenateX,coordenateY);
         mazeSolver.userStoryTwo(mazeFile);
         mazeSolver.userStoryTwoPrinthPath(mazeFile);

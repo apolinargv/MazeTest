@@ -88,10 +88,14 @@ public class MazeImpl implements Maze{
         numberTotalWalls = countCharsOfStringProv(textMaze, MazeStructure.WALL.getValue());
         numberTotalSpaces = countCharsOfStringProv(textMaze, MazeStructure.SPACE.getValue());
 
-
+        /**
+         * This code lines were writte because in beta version was counted all characters of space and wall between coordenates 
+         * of Start Point and Exit Point
+         * 
         int indexOfStart = textMaze.replaceAll(ENDOFLINES, "").indexOf(MazeStructure.START.getValue());
         int indexOfExit = textMaze.replaceAll(ENDOFLINES, "").indexOf(MazeStructure.EXIT.getValue());
         String path = textMaze.replaceAll(ENDOFLINES, "").substring(indexOfStart,indexOfExit);
+        **/
 
     }
 
